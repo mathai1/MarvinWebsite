@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            a:link , a:visited  {
+                color:white;
+                padding: 10px 25px;
+                font-size: x-large;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+            a{
+                border:3px solid white;  
+            }
+            a:hover{
+                border:3px solid rgb(184, 184, 184);  
+            }
+            body {
+                background: linear-gradient(-45deg, #8f8f8f, #7a7a7a, #535353, #272727);
+                background-size: 400% 400%;
+                animation: gradient 5s ease infinite;
+                height: 100vh;
+            }
+
+            @keyframes gradient {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 100% 50%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+        </style>
+    </head>
+    <title>
+        Marvin's Website
+    </title>
+    <body >
+        <!--Image-->
+        <!--Text-->
+        <h1 style="text-align: center; color: white; padding: 5px;">
+            <b style="font-size:50px"> 
+                Welcome to Marvin Thai's Website
+            </b>
+        </h1>
+        <p style="text-align: center; color: white; padding: 5px;">
+            Hello, My name is Marvin Thai and I am a graduate of Computer Science B.S..
+        </p>
+        <!--Button-->
+        <div style="text-align: center;padding: 5px;">
+            <a href="/about"><b>Learn More</b></a>     
+        </div>
+    </body>
+</html>
